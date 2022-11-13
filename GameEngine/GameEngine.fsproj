@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <NoWarn>9</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <NoWarn>9</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Primitives\Rgba.fs" />
+        <Compile Include="Primitives\Image.fs" />
+        <Compile Include="OpenGl\BufferObject.fs" />
+        <Compile Include="OpenGl\VertexArrayObject.fs" />
+        <Compile Include="OpenGl\Shader.fs" />
+        <Compile Include="OpenGl\Texture.fs" />
+        <Compile Include="OpenGl\SpriteRenderer.fs" />
+        <Content Include="Shaders\shader.vert" />
+        <Content Include="Shaders\shader.frag" />
+        <Content Include="Shaders\sprite.frag" />
+        <Content Include="Shaders\sprite.vert" />
+        <Compile Include="Model.fs" />
+        <Compile Include="SceneBuilder.fs" />
+        <Compile Include="GameEngine.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Silk.NET.Input" Version="2.16.0" />
+      <PackageReference Include="Silk.NET.OpenAL" Version="2.16.0" />
+      <PackageReference Include="Silk.NET.OpenGL" Version="2.16.0" />
+      <PackageReference Include="Silk.NET.Windowing" Version="2.16.0" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
+    </ItemGroup>
+
+</Project>

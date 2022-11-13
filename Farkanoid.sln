@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Farkanoid", "Farkanoid\Farkanoid.fsproj", "{CDFF7FAF-3AB7-4CBF-B7D3-865F3FB82B9C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GameEngine", "GameEngine\GameEngine.fsproj", "{A424A224-1CC0-4FA6-80AD-1FD6B5E37850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFF7FAF-3AB7-4CBF-B7D3-865F3FB82B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFF7FAF-3AB7-4CBF-B7D3-865F3FB82B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFF7FAF-3AB7-4CBF-B7D3-865F3FB82B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFF7FAF-3AB7-4CBF-B7D3-865F3FB82B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A424A224-1CC0-4FA6-80AD-1FD6B5E37850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A424A224-1CC0-4FA6-80AD-1FD6B5E37850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A424A224-1CC0-4FA6-80AD-1FD6B5E37850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A424A224-1CC0-4FA6-80AD-1FD6B5E37850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
