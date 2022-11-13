@@ -21,10 +21,18 @@
         <Compile Include="OpenGl\Shader.fs" />
         <Compile Include="OpenGl\Texture.fs" />
         <Compile Include="OpenGl\SpriteRenderer.fs" />
-        <Content Include="Shaders\shader.vert" />
-        <Content Include="Shaders\shader.frag" />
-        <Content Include="Shaders\sprite.frag" />
-        <Content Include="Shaders\sprite.vert" />
+        <Content Include="Shaders\shader.vert">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Shaders\shader.frag">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Shaders\sprite.frag">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Shaders\sprite.vert">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
         <Compile Include="Model.fs" />
         <Compile Include="SceneBuilder.fs" />
         <Compile Include="GameEngine.fs" />
